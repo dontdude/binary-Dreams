@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  darkMode: 'class',      // The placing of this line was the cause of earlier dark mode bug
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     extend: {
