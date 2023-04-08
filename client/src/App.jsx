@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter  as Router, Link, Route, Routes } from 'react-router-dom';
 import { animatedLogo } from './assets';
 import { Home, CreatePost } from './pages';
-import Toggler from './utils/Toggler';
+import Toggler from './components/Toggler';
 
 const App = () => {
   return (
