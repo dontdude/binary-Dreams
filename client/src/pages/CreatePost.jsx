@@ -28,7 +28,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://ai-mern.onrender.com/api/v1/dalle', {
+        const response = await fetch('https://binarydreams.onrender.com/api/v1/dalle', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ const CreatePost = () => {
 
       try {
         // Making a post request to the server, for storing the form details, containing generateImage
-        const response = await fetch('http://localhost:8080/api/v1/post', {
+        const response = await fetch('https://binarydreams.onrender.com/api/v1/post', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
